@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/componentes/cabecalho/cabecalho.css">
+    <link rel="stylesheet" href="styles/componentes/cabecalho/campoBusca.css">
+    <link rel="stylesheet" href="styles/componentes/pagCadastro/menu/menuLateral.css">
+    <link rel="stylesheet" href="styles/componentes/cabecalho/navegacaoLateral.css">
+    <link rel="stylesheet" href="styles/componentes/botoes/usuario.css">
+    <link rel="stylesheet" href="styles/componentes/botoes/icones.css">
+    <link rel="stylesheet" href="styles/componentes/cardCode/cardCode.css">
+    <link rel="stylesheet" href="styles/componentes/botoes/visualizarHighlight.css">
+    <link rel="stylesheet" href="styles/componentes/pagCadastro/pagConteudo.css">
+    <link rel="stylesheet" href="styles/componentes/pagCadastro/formularioCode/formularioCode.css">
+    <title>Alura Dev</title>
+</head>
+
+<body>
+    <!-- componente logo -->
+    <a class="cabecalho__logo" href="index.html"><img src="imagens/Logo.svg" alt=""></a>
+    <!-- componente logo -->
+
+    <!-- componente campo busca -->
+    <input class="campoBusca" placeholder="Busque por algo" type="">
+    <!-- componente campo busca -->
+
+
+
+    <!-- componente foto usuario-->
+    <div class="usuario">
+        <img class="usuario__foto" src="imagens/Photo.png" alt="">
+        <p>Harry</p>
+    </div>
+    <!-- componente foto usuario -->
+
+    <!-- componente icones mobile -->
+    <div class="navegacao">
+        <i class="icone icone__busca"></i>
+        <i class="icone icone__menu"></i>
+    </div>
+    <!-- componente icones mobile -->
+
+
+    <!-- Busca e Menu MOBILE -->
+    <div class="navegacaoLateral">
+        <nav class="menuLateral">
+            <ul class="menuLateral__links">
+                <li class="menuLateral__link menuLateral__link--ativo"><i class="icone icone__code"></i>Editor de código
+                </li>
+                <li class="menuLateral__link"><i class="icone icone__comunidade"></i>Comunidade</li>
+            </ul>
+            <hr>
+            <div class="usuario ">
+                <img class="usuario__foto" src="imagens/Photo.png" alt="">
+                <p>Harry</p>
+            </div>
+        </nav>
+        <div class="campoBusca__mobile">
+            <input class="campoBusca" placeholder="Busque por algo" type="">
+            <i class="icone icone__fechar"></i>
+        </div>
+    </div>
+    <!-------------------------------->
+
+    <!-- componente menu lateral desk-->
+    <nav class="menuLateral-desk">
+        <p>Menu</p>
+        <ul class="menuLateral__links">
+            <li class="menuLateral__link menuLateral__link--ativo"><i class="icone icone__code"></i>Editor de código
+            </li>
+            <li class="menuLateral__link"><i class="icone icone__comunidade"></i>Comunidade</li>
+        </ul>
+    </nav>
+    <!-- componente menu lateral desk-->
+
+    <!-- componente card do codigo-->
+    <div class="card">
+        <div class="card__borda">
+            <div class="card__code">
+                <span></span>
+                <p>const pluckDeep = key => obj => key.split('.').reduce((accum, key) => accum[key], obj)
+
+                    const compose = (...fns) => res => fns.reduce((accum, next) => next(accum), res)
+
+                    const unfold = (f, seed) => {
+                    const go = (f, seed, acc) => {
+                    const res = f(seed)
+                    return res ? go(f, res[1], acc.concat([res[0]])) : acc
+                    }
+                    return go(f, seed, [])
+                    }</p>
+            </div>
+        </div>
+        <div class="visualizarHighlight">Visualizar com o highlight</div>
+    </div>
+    <!-- componente card do codigo-->
+    
+    <!-- componente formulario do codigo-->
+    <form class="cadastro__code">
+        <div>
+            <label>Seu projeto</label>
+            <input placeholder="Nome do seu projeto" type="text" />
+            <textarea placeholder="Descrição do seu projeto"></textarea>
+        </div>
+        <div>
+            <label>Seu projeto</label>
+            <input placeholder="Nome do seu projeto" type="text" />
+            <textarea placeholder="Descrição do seu projeto"></textarea>
+        </div>
+    </form>
+    <!-- componente formulario do codigo-->
+    <script src="index.js"></script>
+</body>
+
+</html>

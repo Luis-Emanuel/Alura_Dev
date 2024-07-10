@@ -1,0 +1,37 @@
+.icone {
+    display: block;
+    width: 48px;
+    height: 48px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icone__busca {
+    background-image: url(../../../imagens/icones/iconeBusca.svg);
+}
+
+.icone__menu {
+    background-image: url(../../../imagens/icones/iconeMenu.svg);
+}
+
+.icone__fechar {
+    background-image: url(../../../imagens/icones/iconeMenuFechado.svg);
+}
+.icone__code {
+    background-image: url(../../../imagens/icones/iconeCode.svg);
+}
+.icone__comunidade {
+    background-image: url(../../../imagens/icones/iconeComunidade.svg);
+}
+
+
+
+
+
+
+
+@media(min-width: 379px){
+    .icone__busca {
+        display: none;
+    } 
+}

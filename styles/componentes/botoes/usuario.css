@@ -1,0 +1,25 @@
+.usuario {
+    border-radius: 8px;
+    padding: 12px;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.usuario:hover {
+    transition: 0.5s;
+    background-color: var(--fundo-hover);
+}
+
+.usuario__foto {
+    width: 2rem;
+    height: 2rem;
+    background-image: url(../../../imagens/Photo.png);
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+    .cabecalho>.usuario {
+        display: none;
+    }
+}

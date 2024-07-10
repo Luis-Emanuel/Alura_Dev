@@ -1,0 +1,9 @@
+.visualizarHighlight{
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 8px;
+    border: none;
+    background-color:rgba(80, 129, 251, 0.08);
+    color: white;
+}

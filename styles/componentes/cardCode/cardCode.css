@@ -1,0 +1,21 @@
+.card__borda{
+    padding: 1.3rem;
+    background-color: aqua;
+    border-radius: 8px;
+}
+
+.card__code{
+    border-radius: 8px;
+    padding: 1rem;
+    background-color: rgba(20, 20, 20, 1);
+}
+
+.card__code > span{
+    display: block;
+    background-image: url(../../../imagens/icones/iconeCardCode.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 3.25rem;
+    height: 0.75rem;
+    padding-bottom: 1.5rem;
+}

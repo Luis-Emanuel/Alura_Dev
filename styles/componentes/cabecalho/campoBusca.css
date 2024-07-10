@@ -1,0 +1,38 @@
+.campoBusca__mobile{
+    display: none;
+}
+
+.campoBusca {
+    max-width: 752px;
+    padding: 1rem 0.875rem;
+    width: 100%;
+    border-radius: 8px;
+    background-color: var(--campo-texto-fundo);
+    border: none;
+} 
+
+.cabecalho > .campoBusca{
+    display: none;
+}
+
+.campoBusca::placeholder {
+    font-family: var(--fonte-principal);
+}
+
+.campoBusca__mobile--ativo{
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+}
+
+@media(min-width: 379px){
+    .cabecalho > .campoBusca{
+        display: block;
+    }
+    .campoBusca__mobile{
+        display: none;
+    }
+}
+
+
+

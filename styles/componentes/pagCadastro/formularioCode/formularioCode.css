@@ -1,0 +1,40 @@
+.fomulario__code {
+    display: flex;
+    column-gap: 2.5rem;
+}
+
+.card {
+    width: 752px;
+}
+
+.cadastro__code{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    max-width: 272px;
+    width: 100%;
+}
+
+.cadastro__code div {
+ display: flex;
+ flex-direction: column;
+ row-gap: 1rem;
+}
+
+.cadastro__code label {
+    font-family: var(--fonte-principal);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.4em;
+    text-align: left;
+}
+
+.cadastro__code textarea, input {
+    font-family: var(--fonte-principal);
+    padding: 1rem 0.875rem;
+    border-radius: 8px;
+    background-color: var(--campo-texto-fundo);
+    border: none;
+}

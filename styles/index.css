@@ -1,0 +1,23 @@
+:root {
+  --texto-principal: #FFFFFF;
+  --fundo: #051D3B;
+  --campo-texto-fundo: rgba(255, 255, 255, 0.16);
+  --campo-texto-placeholder: rgba(255, 255, 255, 1);
+  --fundo-hover: rgba(255, 255, 255, 0.08);
+  --fundo-menuLateral-link:rgba(80, 129, 251, 0.16);
+  --fundo-menuLateral-link-ativo:rgba(80, 129, 251, 1);
+  --fundo-menuLateral: rgba(45, 65, 91, 1);
+  ;
+  /*FONTE*/
+  --fonte-principal: 'Inter';
+}
+
+body {
+  font-family: var(--fonte-principal);
+  color: var(--texto-principal);
+  background-color: var(--fundo);
+  padding: 2rem;
+  max-width: 1440px;
+  margin: auto;
+}
+
